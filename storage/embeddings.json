@@ -1,0 +1,20 @@
+{
+  "auth": {
+    "testuser": {
+      "password_hash": "$pbkdf2-sha256$29000$qrUWgrD23puTEoIQAuD8vw$wMYPzX5S04It7vPzp.L9ZbSXB6I4FMr87MIqxdikDT4"
+    },
+    "testuser_1568e166": {
+      "password_hash": "$pbkdf2-sha256$29000$zvmf8/5/z7m3FiJEiHFOiQ$4VEdcCsnQGr4hyhX5lrJd8TJ675vvjIOMvLF9/Mhj40"
+    },
+    "testuser_a898fc37": {
+      "password_hash": "$pbkdf2-sha256$29000$VopRKuV8j5FS6t2bMyZkLA$W5LvBW90mx.W.Oqcp6x0vUaonmO4HftU/ZQdMPYilwg"
+    },
+    "testuser_0cd6565d": {
+      "password_hash": "$pbkdf2-sha256$29000$tNY6J2SM0RrjnNO6V6rV.g$0wyo9H/vd2L/PRMlTnx7Wd/JHVdm9GK7gm2uON6FAn4"
+    },
+    "testuser_1771958308": {
+      "password_hash": "$pbkdf2-sha256$29000$d8659/4/J4TwnpOyNmbs/Q$JGzuCqNCPS23p30Ih2dqBFz0.mQM.zx9rhoCP3LZqgE",
+      "failed_attempts": 0
+    }
+  }
+}

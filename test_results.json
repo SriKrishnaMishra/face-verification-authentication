@@ -1,0 +1,50 @@
+[
+  {
+    "test": "Health Endpoint",
+    "success": true,
+    "message": "Status: ok",
+    "timestamp": 1771872510.2270215
+  },
+  {
+    "test": "System Stats",
+    "success": true,
+    "message": "Active sessions: 0",
+    "timestamp": 1771872510.2317865
+  },
+  {
+    "test": "Datastore Stats",
+    "success": true,
+    "message": "Users: 0, Samples: 0",
+    "timestamp": 1771872510.235904
+  },
+  {
+    "test": "Auth Registration",
+    "success": true,
+    "message": "User testuser_0cd6565d registered",
+    "timestamp": 1771872510.28193
+  },
+  {
+    "test": "Auth Token",
+    "success": true,
+    "message": "Token generated successfully",
+    "timestamp": 1771872510.3348596
+  },
+  {
+    "test": "Optimization Status",
+    "success": true,
+    "message": "Enabled features: batch_verification, performance_monitoring, image_quality_check",
+    "timestamp": 1771872510.3405428
+  },
+  {
+    "test": "Performance Stats",
+    "success": false,
+    "message": "HTTP 503",
+    "timestamp": 1771872510.3477597
+  },
+  {
+    "test": "WebSocket Connection",
+    "success": false,
+    "message": "Failed to create session: HTTP 503",
+    "timestamp": 1771872510.3529587
+  }
+]

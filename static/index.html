@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Real-time Face Verification (MVP)</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Real-time Face Verification (MVP)</h1>
+
+    <section class="controls">
+      <label>User ID:
+        <input id="userId" type="text" placeholder="e.g., alice" />
+      </label>
+      <button id="startCam">Start Camera</button>
+      <button id="stopCam" disabled>Stop Camera</button>
+    </section>
+
+    <section class="video-section">
+      <video id="video" autoplay playsinline></video>
+      <canvas id="canvas" width="640" height="480" hidden></canvas>
+    </section>
+
+    <section class="actions">
+      <button id="registerBtn" disabled>Register Face</button>
+      <button id="verifyBtn" disabled>Start Verify</button>
+      <button id="stopVerifyBtn" disabled>Stop Verify</button>
+    </section>
+
+    <section class="status">
+      <div id="result">Status: Idle</div>
+      <div id="score">Score: -</div>
+    </section>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
